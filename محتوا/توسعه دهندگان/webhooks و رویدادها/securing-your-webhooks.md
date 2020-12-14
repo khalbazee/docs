@@ -1,7 +1,7 @@
 ---
 title: Securing your webhooks
 intro: 'Ensure your server is only receiving the expected {% data variables.product.prodname_dotcom %} requests for security reasons.'
-redirect_from:
+redirect_from:SECRET_TOKEN=<em>your_token</em>
   - /webhooks/securing
 versions:
   free-pro-team: '*'
@@ -15,7 +15,7 @@ Once your server is configured to receive payloads, it'll listen for any payload
 
 {% data reusables.webhooks.webhooks-rest-api-links %}
 
-### Setting your secret token
+### Setting your secret token تنظیم رمز مخفی شما
 
 You'll need to set up your secret token in two places: GitHub and your server.
 
